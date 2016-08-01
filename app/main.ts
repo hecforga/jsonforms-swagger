@@ -1,6 +1,8 @@
 import { AppComponent } from './app.component';
 import { upgradeAdapter } from './adapters/upgrade_adapter';
 
+import './components/common/controls/table/table-control';
+
 declare var angular: any;
 
 angular.module('app-legacy', ['jsonforms'])

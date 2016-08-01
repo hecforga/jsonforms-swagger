@@ -8,7 +8,7 @@ import { ErrorService } from '../error/error.service';
 import { API } from '../core/model/api';
 import { Action } from '../core/model/action';
 import { Operation } from '../core/model/operation';
-import { SearchPipe } from '../common/search.pipe';
+import { SearchPipe } from '../common/pipes/search.pipe';
 
 @Component({
 	selector: 'explorer',

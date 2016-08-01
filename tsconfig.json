@@ -12,7 +12,8 @@
   },
   "files": [
     "app/main.ts",
-    "typings/main.d.ts"
+    "typings/main.d.ts",
+    "./node_modules/jsonforms/index.d.ts"
   ],
   "exclude": [
     "node_modules",

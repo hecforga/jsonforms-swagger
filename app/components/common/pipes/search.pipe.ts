@@ -1,5 +1,5 @@
 import {Pipe, PipeTransform} from '@angular/core';
-import {Operation} from "../core/model/operation";
+import {Operation} from "../../core/model/operation";
 
 @Pipe({name: 'search'})
 export class SearchPipe implements PipeTransform {
